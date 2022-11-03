@@ -1,5 +1,8 @@
 body{
     margin:0;
+    background-image: url("vex.png");
+    background-color: #cccccc;
+    
 }
 /*diplay column left*/
 .column {
