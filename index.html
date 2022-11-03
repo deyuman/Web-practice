@@ -6,22 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Website</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script>
+      function init() {
+        var loc = window.location.href;
+        var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+        var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                              loc + '?profile=css3';
+        document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+        document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+      }
+      window.onload = init;
+    </script>
+  </head>
   <body>
-    <main>
-      <div class="titulo">
-        <h1>Robotics Club</h1>  
-      </div>
-      <div class="row">
-        <div class="row2">
+    <div class="titulo">
+      <h1>Robotics Club</h1>  
+    </div>
+    <div class="row">
+      <div class="row2">
         <a href="https://drive.google.com/file/d/1-g8UB9jey_CvLHa0IuobLPyR6ZUORCum/view?usp=sharing">
           <img src="robot_video.png" class="robo" alt="robots testing">
         </a>
-        </div>
-        <p>This is what I did during the summer. <br> Last summer my school did a summer boot camp</p>
       </div>
-      <div class="column"> 
-        <div><a href="https://deyuman.github.io/website/">My main website</a></div>
-      </div>
-    </main>
+      <p>This is what I did during the summer. <br> Last summer my school did a summer boot camp</p>
+    </div>
+    <div class="column"> 
+      <div><a href="https://deyuman.github.io/website/">My main website</a></div>
+    </div>
   </body>
+  <footer>
+    <a id="vLink1"><strong> HTML </strong> Valid! </a> |
+    <a id="vLink2"><strong> CSS </strong> Valid! </a>
+  </footer>
 </html>
