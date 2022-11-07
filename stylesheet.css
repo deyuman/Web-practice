@@ -1,35 +1,35 @@
 body{
     margin:0;
-    background-image: url("vex.png");
+    background-image:url("vex.png");
     background-color: #cccccc;
 }
 /*diplay column left*/
 .column {
+    margin-top: 0;
     background-color: rgb(120, 120, 114);
     display:flex 50%;
-    padding: 10px;
+    padding: 5px;
     height: 500px;
     float: left;
-    width: 10%;
+    width: 9%;
+    background:rgb(117, 113, 113, 0.9);
     
     
-}
-.column{
-    opacity: 0.7;
-
+    
 }
 /*display row middle*/
 .row {
-    background-color: red;
+    margin-top: 5px;
     display:flex 50%;
     padding: 10px;
     height: 300px;
     float: right;
     width: 85%;
+    background-color: rgb(117, 113, 113);
+    background: rgb(117, 113, 113, 0.9);
 }
 /*row inside the middle one*/
 .row2{
-    margin:0%;
     display: flex;
     height: auto;
     float: right;
@@ -49,15 +49,18 @@ body{
     color:red;
     font-size: 20px;
     padding: 3px;
-    margin: 3px;
-    border-radius: 5px;
     padding-left: 25px;
    
 }
 /*styles for the web links */
 .link_web{
+    padding:5px;
     color:red;
     font-size: 20px;
+    transition-duration: 0.7s;
     
 
+}
+.link_web:hover{
+    background-color: blue;
 }
