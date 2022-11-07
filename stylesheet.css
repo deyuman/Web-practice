@@ -7,7 +7,7 @@ body{
 .column {
     margin-top: 0;
     background-color: rgb(120, 120, 114);
-    display:flex 50%;
+    display: flex 50%;
     padding: 5px;
     height: 500px;
     float: left;
@@ -20,7 +20,7 @@ body{
 /*display row middle*/
 .row {
     margin-top: 5px;
-    display:flex 50%;
+    display: flex 50%;
     padding: 10px;
     height: 300px;
     float: right;
