@@ -12,10 +12,19 @@ body{
     height: 500px;
     float: left;
     width: 9%;
-    background:rgb(117, 113, 113, 0.9);
-    
-    
-    
+    background:rgb(117, 113, 113, 0.9); 
+}
+/*styles for the web links */
+.link_web{
+    margin:2px;
+    padding:5px;
+    color:red;
+    font-size: 20px;
+    transition-duration: 0.7s;
+    text-decoration: none;
+}
+.link_web:hover{
+   opacity: 0.5;
 }
 /*display row middle*/
 .row {
@@ -51,18 +60,6 @@ body{
     padding: 3px;
     padding-left: 25px;
    
-}
-/*styles for the web links */
-.link_web{
-    padding:5px;
-    color:red;
-    font-size: 20px;
-    transition-duration: 0.7s;
-    
-
-}
-.link_web:hover{
-    background-color: blue;
 }
 .foot{
     position:absolute;
