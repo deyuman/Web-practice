@@ -16,8 +16,8 @@ body{
 }
 /*styles for the web links */
 .link_web{
-    margin:2px;
-    padding:5px;
+    margin-left: 0;
+    margin-right:2px;
     color:red;
     font-size: 20px;
     transition-duration: 0.7s;
@@ -37,7 +37,7 @@ body{
     background-color: rgb(117, 113, 113);
     background: rgb(117, 113, 113, 0.9);
 }
-/*row inside the middle one*/
+/*row rigth inside the middle one*/
 .row2{
     display: flex;
     height: auto;
