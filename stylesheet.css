@@ -16,6 +16,8 @@ body{
 }
 /*styles for the web links */
 .link_web{
+    float: left;
+    display:flex;
     margin-left: 0;
     margin-right:2px;
     color:red;
